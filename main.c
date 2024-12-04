@@ -37,18 +37,6 @@ void updateCurrentInput(char *currentInput, char history[HISTORY_SIZE][MAX_INPUT
     fflush(stdout);
 }
 
-// void handleArrowUp(char *currentInput, char history[HISTORY_SIZE][MAX_INPUT], int *historyIndex)
-// {
-//     if (*historyIndex > 0)
-//         updateCurrentInput(currentInput, history, --(*historyIndex));
-// }
-// void handleArrowDown(char *currentInput, char history[HISTORY_SIZE][MAX_INPUT], int *historyIndex,
-//                      const int historyCount)
-// {
-//     if (*historyIndex < historyCount + 1)
-//         updateCurrentInput(currentInput, history, ++(*historyIndex));
-// }
-
 void handleSigint()
 {
     if (subprocessID > 0)
