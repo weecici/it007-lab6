@@ -1,0 +1,5 @@
+total 29
+-rwxrwxrwx 1 root root 17080 Dec  4 09:50 main
+-rwxrwxrwx 1 root root  6697 Dec  4 09:50 main.c
+-rwxrwxrwx 1 root root   389 Dec  4 09:08 readme.txt
+-rwxrwxrwx 1 root root     0 Dec  4 09:51 txt
