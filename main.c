@@ -3,14 +3,13 @@
 #include <stdio.h>
 #include <stdlib.h>
 #include <string.h>
-#include <sys/types.h>
 #include <sys/wait.h>
 #include <termios.h>
 #include <unistd.h>
 
 #define PROMPT "it007sh>"
 #define MAX_INPUT 512
-#define HISTORY_SIZE 3
+#define HISTORY_SIZE 100
 #define MAX_ARGS 100
 #define CMD_ERR "Command not found"
 #define TOK " (<;>)|"
